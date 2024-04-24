@@ -1,0 +1,35 @@
+.header {
+  align-items: center;
+}
+
+.menu {
+  text-align: right;
+  padding-right: 10rem;
+}
+
+.logo {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 1rem;
+}
+
+@media only screen and (max-width: 1360px) {
+  .logo {
+    padding-left: 1rem;
+  }
+  .menu {
+    padding-right: 5rem;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+    .logo{
+        padding: 0;
+    }
+  .menu {
+    text-align: center;
+    margin: auto;
+    padding: 0;
+  }
+}
+

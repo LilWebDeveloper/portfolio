@@ -1,0 +1,59 @@
+.pclass {
+  color: grey;
+  padding-left: 15rem;
+  padding-right: 15rem;
+}
+
+.imgclass {
+  width: 20rem;
+  border: 4px solid #ff9a00;
+  border-radius: 10%;
+}
+
+.aboutme {
+  text-align: justify;
+  color: grey;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  line-height: 2.1rem;
+}
+
+@media only screen and (max-width: 2000px) {
+  .pclass {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+  .aboutme {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .pclass {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .imgclass {
+    width: 20rem;
+    margin: 0rem;
+    margin-top: 3rem;
+  }
+  .aboutme {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .aboutme {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .imgclass {
+    margin-top: 1rem;
+  }
+}

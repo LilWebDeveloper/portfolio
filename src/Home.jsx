@@ -7,14 +7,9 @@ import MySkills from "./components/MySkills";
 import MyProjects from "./components/MyProjects";
 //import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import AOS from "aos";
-import "aos/dist/aos.css";
-import { useEffect } from "react";
+
 
 const Home = () => {
-  useEffect(() => {
-    AOS.init();
-  }, []);
   return (
     <Grid
       sx={{

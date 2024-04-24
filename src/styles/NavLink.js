@@ -20,6 +20,6 @@ export const HeaderButton = styled("button")`
   }
   @media only screen and (max-width: 500px) {
     font-size: 0.85rem;
-    margin: none
+    margin: 0
   }
 `;

@@ -5,7 +5,7 @@ import Experience from "./components/Experience";
 import AboutMe from "./components/AboutMe";
 import MySkills from "./components/MySkills";
 import MyProjects from "./components/MyProjects";
-import Contact from "./components/Contact";
+//import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import AOS from "aos";
 import "aos/dist/aos.css";
